@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "//Diana-ctrl.github.io/HomeWork-first-part/static/css/main.72bcbfb2.chunk.css",
-    "main.js": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/main.29a96af9.chunk.js",
-    "main.js.map": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/main.29a96af9.chunk.js.map",
+    "main.js": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/main.8710a322.chunk.js",
+    "main.js.map": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/main.8710a322.chunk.js.map",
     "runtime-main.js": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/runtime-main.c0467381.js",
     "runtime-main.js.map": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/runtime-main.c0467381.js.map",
     "static/js/2.73240ac8.chunk.js": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/2.73240ac8.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.c0467381.js",
     "static/js/2.73240ac8.chunk.js",
     "static/css/main.72bcbfb2.chunk.css",
-    "static/js/main.29a96af9.chunk.js"
+    "static/js/main.8710a322.chunk.js"
   ]
 }
