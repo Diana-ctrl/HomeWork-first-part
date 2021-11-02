@@ -1,7 +1,40 @@
-.someClass {
-
-}
-
 .error {
-    border: 1px solid red;
+    border: 4px solid #c71585;
 }
+.errorMessage {
+    color: #c71585;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 0.8em;
+}
+.wrapper > input {
+    font-family: Geneva, Arial, sans-serif;
+    color: #9370db;
+    font-size: 30px;
+    font-family: monospace;
+    line-height: 30px;
+}
+.button7 {
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    padding: 0.8em 1em calc(0.8em + 3px);
+    border-radius: 3px;
+    background: #9370db;
+    box-shadow: 0 -3px #9370db inset;
+    transition: 0.2s;
+}
+.button7:hover {
+    background: #ee82ee;
+    box-shadow: 0 3px #ee82ee inset;
+}
+.button7:active {
+    background: #7b68ee;
+    box-shadow: 0 3px #7b68ee inset;
+}
+.animated {
+    transition-property: background-color;
+    transition-duration: 3s;
+}
+  
+  
