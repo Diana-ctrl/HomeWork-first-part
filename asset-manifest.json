@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "//Diana-ctrl.github.io/HomeWork-first-part/static/css/main.d66baa5a.chunk.css",
+    "main.css": "//Diana-ctrl.github.io/HomeWork-first-part/static/css/main.23b1e0fc.chunk.css",
     "main.js": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/main.50153142.chunk.js",
     "main.js.map": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/main.50153142.chunk.js.map",
     "runtime-main.js": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/runtime-main.c0467381.js",
@@ -8,13 +8,13 @@
     "static/js/2.a78908fa.chunk.js": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/2.a78908fa.chunk.js",
     "static/js/2.a78908fa.chunk.js.map": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/2.a78908fa.chunk.js.map",
     "index.html": "//Diana-ctrl.github.io/HomeWork-first-part/index.html",
-    "static/css/main.d66baa5a.chunk.css.map": "//Diana-ctrl.github.io/HomeWork-first-part/static/css/main.d66baa5a.chunk.css.map",
+    "static/css/main.23b1e0fc.chunk.css.map": "//Diana-ctrl.github.io/HomeWork-first-part/static/css/main.23b1e0fc.chunk.css.map",
     "static/js/2.a78908fa.chunk.js.LICENSE.txt": "//Diana-ctrl.github.io/HomeWork-first-part/static/js/2.a78908fa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c0467381.js",
     "static/js/2.a78908fa.chunk.js",
-    "static/css/main.d66baa5a.chunk.css",
+    "static/css/main.23b1e0fc.chunk.css",
     "static/js/main.50153142.chunk.js"
   ]
 }
