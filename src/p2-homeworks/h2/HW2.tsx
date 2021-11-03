@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Affairs from './Affairs'
+import React, { useState } from 'react';
+import Affairs from './Affairs';
 
 // types
 export type AffairPriorityType = 'high' | 'low' | 'middle';
@@ -11,7 +11,7 @@ export type AffairType = {
 export type FilterType = 'all' | AffairPriorityType
 
 // constants
-const defaultAffairs: Array<AffairType> = [ 
+const defaultAffairs: Array<AffairType> = [
     { _id: 1, name: 'React', priority: 'high' },
     { _id: 2, name: 'anime', priority: 'low' },
     { _id: 3, name: 'games', priority: 'low' },
@@ -20,11 +20,11 @@ const defaultAffairs: Array<AffairType> = [
 ]
 
 // pure helper functions
-export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): any => { 
+export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): any => {
     if (filter === 'all') return affairs
     else return affairs.filter(a => a.priority === filter)
 }
-export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> | [] => { 
+export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> | [] => {
     return affairs.filter(a => a._id !== _id);
 }
 
@@ -36,9 +36,13 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id));
 
     return (
-        <div>
+        <div style={{
+            backgroundColor: "#FFB6C1",
+            fontWeight: 800,
+            textDecoration: "none"
+        }}>
             <hr />
-            homeworks 2
+            <h3 style={{ color: "#4B0082" }}>homeworks 2</h3>
 
             {/*should work (должно работать)*/}
             <Affairs

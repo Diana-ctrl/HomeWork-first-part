@@ -10,22 +10,22 @@ const messageData = {
 
 function HW1() {
     return (
-        <div>
-            <hr/>
-            homeworks 1
+        <div style={{ backgroundColor: '#DDA0DD' }}>
+            <hr />
+            <h3 style={{ color: "#4B0082" }}>homeworks 1</h3>
 
             {/*should work (должно работать)*/}
-            
-            <Message 
-                avatar={messageData.avatar} 
-                name={messageData.name} 
-                message={messageData.message} 
+
+            <Message
+                avatar={messageData.avatar}
+                name={messageData.name}
+                message={messageData.message}
                 time={messageData.time}
-            /> 
-            <hr/>
+            />
+            <hr />
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeMessage/>*/}
-            <hr/>
+            <hr />
         </div>
     )
 }

@@ -22,7 +22,7 @@ function HW3() {
                 textDecoration: "none"
             }}>
             <hr />
-      homeworks 3
+            <h3>homeworks 3</h3>
             <GreetingContainer users={users} addUserCallback={addUserCallback} />
             <hr />
             {/*для личного творчества, могу проверить*/}

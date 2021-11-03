@@ -33,9 +33,9 @@ function HW4() {
                     // spanClassName={s.testSpanError}
                 />
 
-                <SuperInputText
+                 <SuperInputText
                     className={s.blue} // проверьте, рабоет ли смешивание классов
-                />
+                /> 
 
                 {/*----------------------------------------------------*/}
 

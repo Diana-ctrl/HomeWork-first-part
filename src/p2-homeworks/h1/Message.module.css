@@ -1,5 +1,4 @@
 .main {
-    background-color: #DDA0DD;
     display: flex;
     align-items: flex-end;
 }
@@ -7,8 +6,8 @@
     width: 100px;
     border: 4mm ridge rgba(170, 50, 220, .6);
     border-radius: 160px 160px 160px 160px;
-    webkit-border-radius: 160px 160px 160px 160px;
-    moz-border-radius: 160px 160px 160px 160px;
+    /* webkit-border-radius: 160px 160px 160px 160px;
+    moz-border-radius: 160px 160px 160px 160px; */
     margin-bottom: 10px; 
 }
 
