@@ -1,4 +1,4 @@
-import React, { ChangeEvent, DetailedHTMLProps, InputHTMLAttributes, KeyboardEvent, useState } from 'react'
+import React, { ChangeEvent, DetailedHTMLProps, InputHTMLAttributes, KeyboardEvent } from 'react'
 import s from './SuperInputText.module.css'
 
 // тип пропсов обычного инпута
@@ -37,10 +37,10 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
             && e.key === 'Enter' // и если нажата кнопка Enter
             && onEnter() // то вызвать его
     }
- 
+
 
     const finalSpanClassName = `${s.error} ${spanClassName ? spanClassName : ''}`;
-    const finalInputClassName = !error ? `${className ? className : ''} ${s.superInput}` : `${s.errorInput} ${className ? className : ''}`; 
+    const finalInputClassName = !error ? `${className ? className : ''} ${s.superInput}` : `${s.errorInput} ${className ? className : ''}`;
     return (
         <>
             <input

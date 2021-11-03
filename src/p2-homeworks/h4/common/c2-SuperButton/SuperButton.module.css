@@ -1,7 +1,23 @@
 .default {
-
+        font-weight: 800;
+        color: white;
+        text-decoration: none;
+        padding: 0.8em 1em calc(0.8em + 3px);
+        border-radius: 3px;
+        background: #9370db;
+        box-shadow: 0 -3px #9370db inset;
+        transition: 0.2s;
+}
+.default:hover {
+        background: #ee82ee;
+        box-shadow: 0 3px #ee82ee inset;
+}
+.default:active {
+        background: #7b68ee;
+        box-shadow: 0 3px #7b68ee inset;
 }
 
 .red {
     background: red;
 }
+
