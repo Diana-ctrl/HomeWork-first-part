@@ -12,7 +12,7 @@ function Affair(props: AffairPropsType) {
     const deleteCallback = () => { props.deleteAffairCallback(props.affair._id) }
 
     return (
-        <div>
+        <div style ={{margin: '2px'}}>
             {`${props.affair.name} [${props.affair.priority}]`}
             <button onClick={deleteCallback} style= {{backgroundColor: '#9370db', color: 'white'}} >X</button>
         </div>
